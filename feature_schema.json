@@ -1,0 +1,30 @@
+{
+  "features": [
+    "model",
+    "year",
+    "transmission",
+    "mileage",
+    "fuelType",
+    "tax",
+    "mpg",
+    "engineSize",
+    "car_age",
+    "mileage_per_year"
+  ],
+  "categorical_features": [
+    "model",
+    "transmission",
+    "fuelType"
+  ],
+  "numerical_features": [
+    "year",
+    "mileage",
+    "tax",
+    "mpg",
+    "engineSize",
+    "car_age",
+    "mileage_per_year"
+  ],
+  "target": "price",
+  "current_year": 2026
+}

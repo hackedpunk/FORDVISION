@@ -1,0 +1,36 @@
+{
+  "project": "FordVision",
+  "artifact_name": "fordvision_deployment_champion.joblib",
+  "model_type": "<class 'catboost.core.CatBoostRegressor'>",
+  "framework": "CatBoost",
+  "task": "used_car_price_regression",
+  "dataset_rows": 14372,
+  "features": [
+    "model",
+    "year",
+    "transmission",
+    "mileage",
+    "fuelType",
+    "tax",
+    "mpg",
+    "engineSize",
+    "car_age",
+    "mileage_per_year"
+  ],
+  "categorical_features": [
+    "model",
+    "transmission",
+    "fuelType"
+  ],
+  "feature_engineering": {
+    "car_age": "2026 - year",
+    "mileage_per_year": "mileage / max(car_age, 1)"
+  },
+  "deployment": {
+    "backend": "FastAPI",
+    "endpoint": "POST /predict",
+    "output": "predicted_price + SHAP explanation"
+  },
+  "verified_r2_percent": 96.7219651082,
+  "status": "DEPLOYMENT_READY"
+}

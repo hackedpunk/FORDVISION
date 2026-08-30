@@ -1,0 +1,12 @@
+{
+  "package": "FORDVISION_DEPLOYMENT_PACKAGE",
+  "files": [
+    "fordvision_deployment_champion.joblib",
+    "model_metadata.json",
+    "verification_metrics.json",
+    "feature_schema.json",
+    "app.py"
+  ],
+  "verified_r2_percent": 96.7219651082,
+  "status": "READY_FOR_INTEGRATION"
+}

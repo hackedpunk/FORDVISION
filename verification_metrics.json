@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "verified_95_plus": true,
+  "r2": 0.967219651082,
+  "r2_percent": 96.7219651082,
+  "mae_gbp": 662.2125,
+  "rmse_gbp": 890.8693,
+  "holdout_train_rows": 12934,
+  "holdout_test_rows": 1438,
+  "source_recorded_r2": 0.950507479074,
+  "verification_r2": 0.967219651082,
+  "verification_note": "Saved deployment artifact was directly verified on the frozen 1438-row holdout without retraining."
+}
