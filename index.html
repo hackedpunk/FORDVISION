@@ -993,7 +993,11 @@
     const status = document.getElementById('api-status');
     if (status) {
         status.textContent = "Inference Error: " + (error?.message || "Unknown error");
-    }
+
+    }       } finally {
+                submitBtn.innerHTML = originalBtnHTML;
+                submitBtn.disabled = false;
+
             }
         }
 
