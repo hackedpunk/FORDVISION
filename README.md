@@ -15,7 +15,7 @@ Example project location:
 D:\ford
 ```
 
-## 2. Open in VS Code
+## 2. Open in Visual code studio (VS Code)
 
 ### From VS Code
 1. Open VS Code.
